@@ -20,5 +20,5 @@ grp <- ""
     
 aheatmap(x = as.matrix(dat), scale = 'row', distfun = dist2, fontsize = 16, annRow = annot, labRow = syms, labCol = grp,
              cexRow = min(0.2 + 1/log10(nr), 1.2), cexCol = min(0.2 + 1/log10(nc), 1.2), Rowv = NA, Colv=NA,
-             color = "YlGnBu",
+             color = "YlGnBu", cellwidth = 40,
              main = 'Heatmap of ... Genes')
