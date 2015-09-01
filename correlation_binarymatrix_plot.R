@@ -1,3 +1,4 @@
+# for e.g in TCGA analysis, take a lncRNA~gene correlation and compare across several cancer types
 library(pheatmap)
 ggplotColours <- function(n=6, h=c(0, 360) +15)
 {
